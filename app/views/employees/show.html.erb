@@ -1,0 +1,14 @@
+Employee_number: <%= @employee.employee_number %>
+Tax_PIN: <%= @employee.tax_PIN %><br>
+Date_hired: <%= @employee.date_hired %><br>
+ID_number: <%= @employee.id_number %><br>
+ID Scanned Copy: <div style="width: 400px; height: 250px;">
+  <%= image_tag @employee.image_url(:thumb).to_s %>
+</div>
+Phone Number: <%= @employee.phone %><br>
+
+<%= link_to 'Update Profile', edit_employee_path(@employee), class: "btn btn-success btn-sm" %>
+<%= link_to 'Delete Profile', employee_path(@employee), class: "btn btn-danger btn-sm",
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Back', employees_path, class: "btn btn-primary btn-sm" %>

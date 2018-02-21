@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_number: 1
+  tax_PIN: 1
+  date_hired: 2018-02-21
+  id_number: 1
+  image: MyString
+  phone: MyString
+
+two:
+  employee_number: 1
+  tax_PIN: 1
+  date_hired: 2018-02-21
+  id_number: 1
+  image: MyString
+  phone: MyString
