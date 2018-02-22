@@ -49,6 +49,8 @@ The Ruby on Rails has a variety of tools which are easy to implement into code. 
 * [Bootstrap-sass](https://github.com/twbs/bootstrap-sass)
 * [Carrierwave](https://github.com/carrierwaveuploader/carrierwave)
 * [Rmagick](https://github.com/carrierwaveuploader/carrierwave)
+* [Enyable](https://github.com/philnash/envyable)
+* [authy](https://github.com/authy/authy-ruby)
 
 #### Development Gems
 * [Pry Byebug](https://github.com/deivid-rodriguez/pry-byebug)
