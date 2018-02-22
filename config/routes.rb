@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: "users/registrations"}
     as :user do get '/' => 'devise/registrations#new'
   end
+  default_url_options :host => "http://localhost:3000"
 end
