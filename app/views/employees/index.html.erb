@@ -35,8 +35,8 @@
             <%= image_tag employee.image_url(:thumb).to_s %>
           </div>
           Phone Number: <%= employee.phone %><br><br>
-            <%= link_to 'Show Details', employee, class: "btn btn-primary btn-sm" %><br>
-            <%= link_to 'Verify phone number', new_phone_verification_path  %> <br><br>
+            <%= link_to 'Show Details', employee, class: "btn btn-primary btn-sm" %><br><br>
+            <%= link_to 'Verify phone number', new_phone_verification_path, class: "btn btn-danger btn-sm"  %> <br><br>
           <% end %>
       <% end %>
   <% end %>
