@@ -38,6 +38,8 @@ gem 'devise'
 gem 'activeadmin'
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'envyable'
+gem 'authy'
 
 group :development, :test do
   gem 'pry-byebug'
