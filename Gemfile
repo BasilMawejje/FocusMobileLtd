@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem "rmagick"
+gem 'mini_magick'
 gem "carrierwave"
 gem 'devise'
 gem 'activeadmin'
